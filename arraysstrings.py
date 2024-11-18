@@ -41,17 +41,17 @@ originallist = [-1, 0, 2, -3, 5] #INPUT NUMBERS
 final_list = filter_negative_numbers(originallist)
 print(final_list) #PRINT LIST
 
-#Problem 4 (work in progress)
+#Problem 4
 
 def average_score(scores):
-    score1 = int('Alice')
-    score2 = int('Bob')
-    score3 = int('Charlie')
-    totals = score1 + score2 + score3
+    score1 = scores["Alice"] #CALL EACH PERSON
+    score2 = scores["Bob"]
+    score3 = scores["Charlie"]
+    totals = (score1 + score2 + score3) / 3 #ADD AND DIVIDE TOTAL
     return totals
 
 scores = ({'Alice' : 85, 'Bob' : 90, 'Charlie': 70})
-print(totals)
+print(totals) #PRINT TOTAL
 
 #Problem 5
 
